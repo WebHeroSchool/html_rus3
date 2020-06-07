@@ -1,0 +1,55 @@
+.header__title {
+  text-align: center;
+  color: blue;
+  font-size: 30px;
+}
+a[href="#"] {
+  border: 2px solid green;
+  text-decoration: none;
+  border-bottom-left-radius: 8px 8px;
+  border-top-left-radius: 8px 8px;
+  border-bottom-right-radius: 8px 8px;
+  border-top-right-radius: 8px 8px;
+  }
+.header__additional {
+  color: blue;
+  background-color: #00ff00;
+  }
+h1 {
+  text-align: center;
+  background-color: silver;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  filter: drop-shadow(2px 3px 5px blue);
+}
+.section__phone {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: navy;
+  color: orange;
+  text-align: right;
+}
+.article__title {
+  text-indent: 30px;
+}
+.article__description {
+  color: yellow;
+  line-height: 25px;
+  font-style: italic;
+  background-image: url("https://vlg.specdispetcher.ru/upload/usl/f_5e7fa2e594cb9.jpg");
+  background-color: green;
+  background-position: 100% 70%;
+  }
+  .article__description_additional {
+    font-style: italic;
+    word-spacing: 15px;
+  }
+  ul {
+    list-style-type: circle;
+    font-size: 20px;
+    letter-spacing: 2px;
+     }
+     .article__description_additional_one {
+       text-decoration: underline;
+       }
