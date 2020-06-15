@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.header {
+  font-family: 'Balsamiq Sans', cursive;
+}
 .header__title {
   text-align: center;
   color: blue;
   font-size: 30px;
+  font-family: 'Lobster', cursive;
 }
 a[href="#"] {
   border: 2px solid green;
@@ -23,6 +30,15 @@ h1 {
   text-transform: uppercase;
   filter: drop-shadow(2px 3px 5px blue);
 }
+.section {
+  font-family: 'Balsamiq Sans', cursive;
+}
+.section__title {
+  font-family: 'Lobster', cursive;
+}
+button {
+  font-family: 'Balsamiq Sans', cursive;
+}
 .section__phone {
   font-weight: bold;
   font-size: 25px;
@@ -30,8 +46,12 @@ h1 {
   color: orange;
   text-align: right;
 }
+.article {
+  font-family: 'Balsamiq Sans', cursive;
+}
 .article__title {
   text-indent: 30px;
+  font-family: 'Lobster', cursive;
 }
 .article__description {
   color: yellow;
@@ -52,4 +72,7 @@ h1 {
      }
      .article__description_additional_one {
        text-decoration: underline;
+       }
+       .footer {
+         font-family: 'Balsamiq Sans', cursive;
        }
