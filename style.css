@@ -36,6 +36,9 @@ h1 {
 .section__title {
   font-family: 'Lobster', cursive;
 }
+button {
+  font-family: 'Balsamiq Sans', cursive;
+}
 .section__phone {
   font-weight: bold;
   font-size: 25px;
