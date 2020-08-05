@@ -18,9 +18,9 @@
 		<a href="#" class="menu__link">Магазин</a>
 		<a href="#" class="menu__link">Войти</a>
 	</nav>
-	<header class="header__burger">
+	<div class="header__burger">
 		<span></span>
-	</header>
+	</div>
 </header>
 	<section class="conteiner">
 		<section class="start">
@@ -28,15 +28,15 @@
 			<p class="start__text">Добро пожаловать в будущее!</p>
 		</section>
 		<section class="tesla">
-			<p class="tesla__text">Tesla</p>
-			<div class="tesla__img"><img src="#" alt="Картинка авто"></div>
+			<div class="tesla__imgtext"><img src="img/Tesla-Wordmark-Red.png" alt="Картинка надписи тесла"></div>
+			<div class="tesla__imgcartesla"><img src="img/tesla-png-tesla-png-hd-1636.png" alt="Картинка авто"></div>
 		</section>
 		<section class="specifications">
-			<p class="specifications__img1"><img src="#" alt="Картинка спидометра"></p>
+			<p class="specifications__speedometer"><img src="img/Speed.png" alt="Картинка спидометра"></p>
 			<p class="specifications__text">2,7 сек<br><span>0-100 км/час</span></p>
-			<p class="specifications__img2"><img src="#" alt="Картинка дороги"></p>
+			<p class="specifications__road"><img src="img/Road icon.png" alt="Картинка дороги"></p>
 			<p class="specifications__text">632 км<br><span>запас хода</span></p>
-			<p class="specifications__img3"><img src="#" alt="Картинка руля"></p>
+			<p class="specifications__steering"><img src="img/steering-wheel.png" alt="Картинка руля"></p>
 			<p class="specifications__text">Тест драйв</p>
 			<a href="#" class="specifications__item">Заказать</a>
 		</section>
@@ -44,44 +44,48 @@
 			<h2 class="salon__text">
 				Model S
 			</h2>
-			<div class="salon__img"><img src="#" alt="Картинка салона авто">
+			<div class="salon__interior"><img src="img/2013-tesla-model-s-cockpit.png" alt="Картинка салона авто">
 			</div>
 		</section>
 		<section class="description">
 			<h2 class="description__title">Будущее вождения</h2>
 			<p class="description__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-			<p class="description__list">
-				<p class="description__img1"><img src="#" alt="Картинка смартфона"></p>
-				<p class="description__item">17 дюймов<br><span>Большой дисплей</span></p>
-				<p class="description__img2"><img src="#" alt="Картинка wi-fi"></p>
-				<p class="description__item">Беспроводное соединение ПО<br><span>Повышенная функциональность</span></p>
-				<p class="description__img3"><img src="#" alt="Картинка бензобака"></p>
-				<p class="description__item">894 литра<br><span>Объем грузового пространства</span></p>
-			</p>
+			<div class="parameters">
+				<div class="parameters__smartphone"><img src="img/screen.png" alt="Картинка смартфона"></div>
+				<div class="parameters__item">17 дюймов<br><span>Большой дисплей</span></div>
+				<div class="parameters__wifi"><img src="img/Group.png" alt="Картинка wi-fi"></div>
+				<div class="parameters__item">Беспроводное соединение ПО<br><span>Повышенная функциональность</span></div>
+				<div class="parameters__petrol"><img src="img/bag.png" alt="Картинка бензобака"></div>
+				<div class="parameters__item">894 литра<br><span>Объем грузового пространства</span></div>
+			</div>
 			<a href="#" class="description__link">Узнать больше</a>
 			<a href="#" class="description__link">Заказать</a>
 		</section>
 		<section class="safety">
 			<div class="safety__description">
 				<h2 class="safety__title">Самый безопасный автомобиль в мире</h2>
-				<p class="safety__text1">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
-				<h2 class="safety__subtitle">Оценка защиты:</h2>
-				<ul class="safety__list">
-					<li class="safety__item">Спереди<p class="safety__img1"><img src="#" alt="Картинка звездочек"></p></li>
-					<li class="safety__item">Сбоку<p class="safety__img1"><img src="#" alt="Картинка звездочек"></p></li>
-					<li class="safety__item">Сбоку<span>(Стойка)</span><p class="safety__img1"><img src="#" alt="Картинка звездочек"></p></li>
-					<li class="safety__item">Водитель<p class="safety__img1"><img src="#" alt="Картинка звездочек"></p></li>
-					<li class="safety__item">Пассажир<p class="safety__img1"><img src="#" alt="Картинка звездочек"></p></li>
-				</ul>
-				<p class="safety__text2"><p class="safety__img2"><img src="#" alt="Картинка галочки"></p>5 звезд безопасности</p>
-				<ul class="safety__menu">
-					<li class="safety__link"><a href="#" class="safety__link"><p class="safety__img3"><img src="#" alt="Картинка кружок"></p>Узнать больше</a></li>
-					<li class="safety__link"><a href="#" class="safety__link">Заказать</a></li>
+				<p class="safety__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+			</div>
+			<div class="stars">
+				<h2 class="stars__subtitle">Оценка защиты:</h2>
+				<ul class="stars__list">
+					<li class="stars__item">Спереди<p class="stars__stars"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"></p></li>
+					<li class="stars__item">Сбоку<p class="stars__stars"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"></p></li>
+					<li class="stars__item">Сбоку<span>(Стойка)</span><p class="stars__stars"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"></p></li>
+					<li class="stars__item">Водитель<p class="stars__stars"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"></p></li>
+					<li class="stars__item">Пассажир<p class="stars__stars"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"><img src="img/Star.png" alt="Картинка звездочек"></p></li>
 				</ul>
 			</div>
-			<div class="safety__schema">
-				<div class="schema__title">Model S</div>
-				<div class="schema__imgcar"><img src="#" alt="Картинка авто"></div>
+			<div class="fivestars">
+				<p class="fivestars__textstars"><p class="fivestars__shield"><img src="img/Group shield.png" alt="Картинка щита"></p>5 звезд безопасности</p>
+				<ul class="fivestars__menu">
+					<li class="fivestars__link"><a href="#" class="fivestars__link"><p class="fivestars__circle"><img src="img/Group circle.png" alt="Картинка кружок"></p>Узнать больше</a></li>
+					<li class="fivestars__link"><a href="#" class="fivestars__link">Заказать</a></li>
+				</ul>
+			</div>
+			<div class="schema">
+				<div class="schema__title"><img src="img/Model S.png" alt="Картинка Модель S"></div>
+				<div class="schema__imgcar"><img src="img/Car frame group.png" alt="Картинка авто"></div>
 			</div>
 		</section>
 	</section>
