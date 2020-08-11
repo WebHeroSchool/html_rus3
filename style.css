@@ -1,0 +1,18 @@
+/*@import "fonts.css";*/
+
+/*body {
+	font-family: "Montserrat-SemiBold";
+}*/
+
+.header, .start, .specifications, .salon, .description__title, .parameters__item, .safety__title, .stars__subtitle, .fivestars__textstars{
+	font-family: "Montserrat-SemiBold";
+}
+.specifications__item, .description__link, .stars__item, .fivestars__text, .fivestars__link{
+	font-family: "Montserrat-Bold";
+}
+.description__text, .safety__text{
+	font-family: "Montserrat-Medium";
+}
+.parameters__small{
+	font-family: "Montserrat-Regular";
+}
