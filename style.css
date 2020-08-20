@@ -1,18 +1,231 @@
-/*@import "fonts.css";*/
-
-/*body {
-	font-family: "Montserrat-SemiBold";
-}*/
-
 .header, .start, .specifications, .salon, .description__title, .parameters__item, .safety__title, .stars__subtitle, .fivestars__textstars{
-	font-family: "Montserrat-SemiBold";
+font-family: "Montserrat-SemiBold";
 }
 .specifications__item, .description__link, .stars__item, .fivestars__text, .fivestars__link{
-	font-family: "Montserrat-Bold";
+font-family: "Montserrat-Bold";
 }
 .description__text, .safety__text{
-	font-family: "Montserrat-Medium";
+font-family: "Montserrat-Medium";
 }
 .parameters__small{
-	font-family: "Montserrat-Regular";
+font-family: "Montserrat-Regular";
+}
+
+body{
+max-width: 1440px;
+max-height: 2700px;
+}
+
+.header{
+background: orange;
+position: relative;
+width: 1338px;
+height: 51px;
+color: #000000;
+}
+
+
+.menu{
+/*border: 5px solid green;*/
+position: relative;
+display: inline-block;
+bottom: 20px;
+}
+.menu__store{
+display: inline-block;
+position: relative;
+bottom: 20px;
+padding-left: 90px;
+/*border: 5px solid green;*/
+}
+.menu__link-1{
+padding: 5px 10px;
+margin-right: 40px;
+margin-left: 150px;
+
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+cursor: pointer;
+color: #E51937;
+}
+.menu__link{
+padding: 5px 10px;
+margin-left: 30px;
+
+
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+cursor: pointer;
+}
+.menu__link:hover{
+background-color: #E51937;
+border-radius: 10px;
+}
+.menu__link-1:hover{
+background-color: #E51937;
+border-radius: 10px;
+color: #000000;
+}
+
+
+.header__burger{
+/*border: 5px solid green;*/
+position: relative;
+display: block;
+
+margin-left: auto;
+bottom: 60px;
+
+width: 30px;
+height: 30px;
+cursor: pointer;
+}
+
+
+
+.header__burger span,
+.header__burger span:before,
+.header__burger span:after{
+position: absolute;
+background-color: #E51937;
+right: 0px;
+top: 10px;
+width: 30px;
+height: 2px;
+}
+.header__burger span:before,
+.header__burger span:after{
+content: " ";
+}
+.header__burger span:before{
+transform: translateY(-2px);
+}
+.header__burger span:after{
+transform: translateY(7px);
+}
+
+
+.start {
+/*display: block;*/
+
+}
+.start__title{
+/*border: 5px solid green;*/
+margin: 0;
+width: 370px;
+height: 110px;
+margin-left: auto;
+margin-right: auto;
+
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height: 110px;
+}
+.start__text{
+	/*border: 5px solid green;*/
+
+margin: 0;
+width: 250px;
+height: 19px;
+margin-left: auto;
+margin-right: auto;
+
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+
+.tesla__imgtext{
+/*border: 5px solid green;*/
+position: relative;
+width: 1514px;
+height: 467px;
+left: -74px;
+top: -80px;
+}
+
+.tesla__imgcartesla{
+/*border: 5px solid green;*/
+position: absolute;
+width: 968px;
+height: 450px;
+left: 199px;
+top: 278px;
+}
+
+.specifications{
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+height: 58px;
+/*border: 5px solid green;*/
+/*display: inline-block;*/
+	/*position: relative;*/
+}
+
+.specifications__speedometer{
+/*border: 5px solid green;*/
+display: inline-block;
+position: relative;
+width: 46px;
+height: 34.13px;
+bottom: 20px;
+
+}
+.specifications__text{
+display: inline-block;
+position: relative;
+bottom: 30px;
+margin: 15px 50px 0 0;
+
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 43px;
+}
+.specifications__steering{
+display: inline-block;
+position: relative;
+bottom: 20px;
+}
+.specifications__item{
+display: inline-block;
+position: relative;
+bottom: 30px;
+margin: 15px 50px 0 0;
+}
+
+
+.specifications__spantext{
+margin: 0;
+/*border: 5px solid green;*/
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+}
+.specifications__itemlink{
+display: inline-block;
+position: relative;
+bottom: 30px;
+text-decoration: none;
+cursor: pointer;
+
+width: 160px;
+height: 40px;
+border: 2px solid #E51937;
+
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+color: #E51937;
 }
