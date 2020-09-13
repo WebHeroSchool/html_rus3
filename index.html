@@ -3,6 +3,7 @@
 <head>
   <title>Проект 1 Tesls</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,19 +11,17 @@
   <header class="header">
     <img class="header__title" src="img/Tesla-Wordmark-Red1.png" alt="картинка надписи мелко Тесла">
     <nav class="menu">
-      <a href="#" class="menu__link-1">Model S</a>
+      <a href="#" class="menu__link menu__link_red">Model S</a>
       <a href="#" class="menu__link">Model X</a>
       <a href="#" class="menu__link">Model 3</a>
-      <a href="#" class="menu__link">Roadster</a>
-      <a href="#" class="menu__link">Energy</a>
+      <a href="#" class="menu__link menu__link_roadster">Roadster</a>
+      <a href="#" class="menu__link menu__link_energy">Energy</a>
     </nav>
     <nav class="menu__store">
       <a href="#" class="menu__link">Магазин</a>
       <a href="#" class="menu__link">Войти</a>
     </nav>
     <div class="header__burger">
-      <span></span>
-      <span></span>
       <span></span>
     </div>
   </header>
@@ -37,90 +36,112 @@
     </section>
     <section class="specifications">
       <img class="specifications__speedometer" src="img/Speed.png" alt="Картинка спидометра">
-      <p class="specifications__text">2,7 сек<br><span class="specifications__spantext">0-100 км/час</span></p>
+      <p class="specifications__text">2,7<span class="specifications__spansmall">сек</span><br><span class="specifications__spantext">0-100 км/час</span></p>
       <img class="specifications__road" src="img/Road icon.png" alt="Картинка дороги">
-      <p class="specifications__text">632 км<br><span class="specifications__spantext">запас хода</span></p>
+      <p class="specifications__text">632<span class="specifications__spansmall">км</span><br><span class="specifications__spantext">запас хода</span></p>
       <img class="specifications__steering" src="img/steering-wheel.png" alt="Картинка руля">
       <p class="specifications__item">Тест драйв</p>
       <a href="#" class="specifications__itemlink">Заказать</a>
     </section>
+    <img class="specifications__arrow" src="img/Vector.png" alt="Картинка стрелки">
     <section class="salon">
       <h2 class="salon__text">Model S</h2>
       <img class="salon__interior" src="img/2013-tesla-model-s-cockpit.png" alt="Картинка салона авто">
-    </section>
-    <section class="description">
+      <section class="description">
       <h2 class="description__title">Будущее вождения</h2>
       <p class="description__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
       <div class="parameters">
+        <div class="parameters__block">
         <img class="parameters__smartphone" src="img/screen.png" alt="Картинка смартфона">
-        <div class="parameters__item">17 дюймов<span class="parameters__small">Большой дисплей</span></div>
+        <div class="parameters__item"><span class="parameters__spanbig">17 </span>дюймов<br><span class="parameters__small">Большой дисплей</span></div>
+        </div>
+        <div class="parameters__block">
         <img class="parameters__wifi" src="img/Group.png" alt="Картинка wi-fi">
-        <div class="parameters__item">Беспроводное соединение ПО<span class="parameters__small">Повышенная функциональность</span></div>
-        <img class="parameters__petrol" src="img/bag.png" alt="Картинка бензобака">
-        <div class="parameters__item">894 литра<span class="parameters__small">Объем грузового пространства</span></div>
+        <div class="parameters__item">Беспроводное соединение ПО<br><span class="parameters__small">Повышенная функциональность</span></div>
       </div>
-      <a href="#" class="description__link">Узнать больше</a>
-      <a href="#" class="description__link">Заказать</a>
+      <div class="parameters__block">
+        <img class="parameters__petrol" src="img/bag.png" alt="Картинка бензобака">
+        <div class="parameters__item"><span class="parameters__spanbig">894 </span>литра<br><span class="parameters__small">Объем грузового<br>пространства</span></div>
+      </div>
+      <div class="parameters__info">
+      <a href="#" class="description__link"><img class="parameters__circle" src="img/Group circle.png" alt="Картинка восклицательный знак">Узнать больше</a>
+      <a href="#" class="description__link description__link_active">Заказать</a>
+    </div>
+    </div>
+    </section>
     </section>
     <section class="safety">
+      <div class="safety__block">
       <div class="safety__description">
         <h2 class="safety__title">Самый безопасный автомобиль в мире</h2>
         <p class="safety__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
       </div>
       <div class="stars">
         <h2 class="stars__subtitle">Оценка защиты:</h2>
-        <ul class="stars__list">
-          <li class="stars__item">Спереди
+        <div class="stars__list">
+          <div class="stars__item">Спереди</div>
+            <div class="stars__block"><img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-          </li>
-          <li class="stars__item">Сбоку
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-          </li>
-          <li class="stars__item">Сбоку<span>(Стойка)</span>
+          </div>
+        </div>
+        <div class="stars__list">
+          <div class="stars__item">Сбоку</div>
+            <div class="stars__block"><img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-          </li>
-          <li class="stars__item">Водитель
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-          </li>
-          <li class="stars__item">Пассажир
+          </div>
+          </div>
+          <div class="stars__list">
+            <div class="stars__item">Сбоку<span class="stars__spansmall">(Стойка)</span></div>
+            <div class="stars__block"><img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+          </div>
+          </div>
+          <div class="stars__list">
+            <div class="stars__item">Водитель</div>
+            <div class="stars__block"><img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
             <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
-          </li>
-        </ul>
+            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+          </div>
+          </div>
+          <div class="stars__list">
+            <div class="stars__item">Пассажир</div>
+            <div class="stars__block"><img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+            <img class="stars__stars" src="img/Star.png" alt="Картинка звездочек">
+          </div>
+          </div>
       </div>
       <div class="fivestars">
+        <div class="fivestars__safety">
         <img class="fivestars__shield" src="img/Group shield.png" alt="Картинка щита">
-        <p class="fivestars__textstars">5 звезд безопасности</p>
-        <ul class="fivestars__menu">
-          <li class="fivestars__link">
+        <p class="fivestars__textstars">5 звезд <br><span class="fivestars__span">безопасности</span></p>
+      </div>
+      <div class="fivestars__active">
+        <div class="fivestars__menu">
             <a href="#" class="fivestars__link">
               <img class="fivestars__circle" src="img/Group circle.png" alt="Картинка кружок">
-              <a href="#" class="fivestars__text">Узнать больше</a>
-            </a>
-          </li>
-          <li class="fivestars__link">
+              Узнать больше</a>
+          </div>
+          <div class="fivestars__menu fivestars__menu_active">
             <a href="#" class="fivestars__link">Заказать</a>
-          </li>
-        </ul>
+          </div>
+        </div>
+      </div>
+        </div>
+        </div>
       </div>
       <div class="schema">
         <img class="schema__title" src="img/Model S.png" alt="Картинка Модель S">
