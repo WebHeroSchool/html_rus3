@@ -636,9 +636,36 @@ width: 100%;
 		display: none;
 	}
 	
+	.start__title{
+		margin: 0;
+	}
+
+	.start__text{
+		margin: -15px;
+	}
+
+	.tesla__imgtext{
+		bottom: 40%;
+	}
+
+	.tesla__imgcartesla{
+		width: 90%;
+		margin-top: 13%;
+		margin-right: 5%;
+	}
+
 	.specifications{
 		flex-direction: column;
 		align-items: center;
+		padding-top: 25px;
+	}
+
+	.specifications__blocksmall{
+		margin-top: 4%;
+	}
+
+	.specifications__block_active{
+		margin-top: 40px;
 	}
 
 	.specifications__arrow{
@@ -671,13 +698,13 @@ width: 100%;
 	}
 
 	.safety{
-		border: 5px solid orange;
+		/*border: 5px solid orange;*/
 		flex-direction: column-reverse;
 		height: 100%;
 	}
 
 	.safety__block{
-		border: 3px solid blue;
+		/*border: 3px solid blue;*/
 		/*position: relative;*/
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -738,16 +765,37 @@ width: 100%;
 		display: none;
 	}
 
+	.header__title{
+		width: 138px;
+		height: 42px;
+	}
+
+	.start{
+		margin-top: 6%;
+	}
+
 	.start__title{
 		font-size: 50px;
 	}
 
 	.start__text{
 		font-size: 10px;
+		margin-top: 0.1%;
+	}
+
+	.tesla__imgcartesla{
+		width: 95%;
+		margin-top: 14%;
+		margin-right: 0%;
 	}
 
 	.specifications{
 		flex-direction: column;
+		padding-top: 0;
+	}
+
+	.specifications__block_active{
+		margin-top: 0;
 	}
 
 	.salon{
@@ -764,11 +812,13 @@ width: 100%;
 		flex-direction: column;
 		flex-wrap: wrap;
 		width: 100%;
+		min-width: 375px;
 		justify-content: center;
 	}
 
 	.safety__block{
 		flex-direction: column;
+		min-width: 375px;
 	}
 
 	.schema__title{
