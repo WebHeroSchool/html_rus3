@@ -167,7 +167,7 @@ bottom: 28%;
 }
 
 .tesla__imgcartesla{
-width: 67%;
+width: 70%;
 margin-top: 1%;
 margin-right: 5%;
 }
@@ -637,11 +637,11 @@ width: 100%;
 	}
 	
 	.start__title{
-		margin: 0;
+		margin-top: 11%;
 	}
 
 	.start__text{
-		margin: -15px;
+		margin: -1%;
 	}
 
 	.tesla__imgtext{
@@ -660,16 +660,48 @@ width: 100%;
 		padding-top: 25px;
 	}
 
+	.specifications__speedometer{
+		width: 75px;
+		height: 60px;
+		margin-top: 3%;
+	}
+
+	.specifications__text{
+		margin-top: 8%;
+		margin-bottom: 0;
+		margin-right: 30px;
+		margin-left: 10px;
+		font-size: 50px;
+	}
+
+	.specifications__road{
+		margin-left: 70px;
+		margin-top: 5%;
+		max-width: 40px;
+		max-height: 70px;
+	}
+
 	.specifications__blocksmall{
 		margin-top: 4%;
 	}
 
 	.specifications__block_active{
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 
 	.specifications__arrow{
 		margin-top: 5%;
+	}
+
+	.specifications__item{
+		font-size: 16px;
+		/*margin-right: 40px;*/
+	}
+
+	.specifications__itemlink{
+		width: 215px;
+		height: 50px;
+		/*margin-left: 75px;*/
 	}
 
 	.salon{
@@ -768,6 +800,11 @@ width: 100%;
 	.header__title{
 		width: 138px;
 		height: 42px;
+		margin-top: 30%;
+	}
+
+	.header__burger{
+		margin-top: 30%;
 	}
 
 	.start{
@@ -776,6 +813,7 @@ width: 100%;
 
 	.start__title{
 		font-size: 50px;
+		margin-top: 14%;
 	}
 
 	.start__text{
@@ -785,17 +823,63 @@ width: 100%;
 
 	.tesla__imgcartesla{
 		width: 95%;
-		margin-top: 14%;
+		margin-top: 13%;
 		margin-right: 0%;
+	}
+
+	.tesla__imgtext{
+		bottom: 36%;
 	}
 
 	.specifications{
 		flex-direction: column;
-		padding-top: 0;
+		padding-top: 1%;
+	}
+
+	.specifications__block{
+		margin-left: 0px;
+	}
+
+	.specifications__speedometer{
+		width: 38px;
+		height: 27px;
+	}
+
+	.specifications__text{
+		font-size: 27px;
+		margin-right: 0px;
+	}
+
+	.specifications__spantext{
+		font-size: 10px;
+	}
+
+	.specifications__spansmall{
+		font-size: 15px;
+	}
+
+	.specifications__road{
+		max-width: 21px;
+		max-height: 34px;
+	}
+
+	.specifications__steeringred{
+		margin-left: 5%;
+	}
+
+	.specifications__item{
+		font-size: 13px;
+		width: 100px;
+		margin-left: 1%;
+	}
+	.specifications__itemlink{
+		width: 160px;
+		height: 40px;
+		margin-left: 30px;
 	}
 
 	.specifications__block_active{
-		margin-top: 0;
+		margin-top: 9%;
 	}
 
 	.salon{
