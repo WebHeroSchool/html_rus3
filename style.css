@@ -1,14 +1,14 @@
 .header, .start, .specifications, .salon, .description__title, .parameters__item, .safety__title, .stars__subtitle, .fivestars__textstars{
-font-family: "Montserrat-SemiBold";
+font-family: "Montserrat-SemiBold", serif, sans-serif;
 }
 .specifications__item, .description__link, .stars__item, .fivestars__text, .fivestars__link{
-font-family: "Montserrat-Bold";
+font-family: "Montserrat-Bold", serif, sans-serif;
 }
 .description__text, .safety__text{
-font-family: "Montserrat-Medium";
+font-family: "Montserrat-Medium", serif, sans-serif;
 }
 .parameters__small{
-font-family: "Montserrat-Regular";
+font-family: "Montserrat-Regular", serif, sans-serif;
 }
 
 
