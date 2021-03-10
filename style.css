@@ -1213,7 +1213,7 @@ align-items: center;
 		flex-direction: column;
 		align-items: center;
 		justify-content: flex-start;
-		min-width: 375px;
+		min-width: 320px;
 		height: 304px;
 	}
 
@@ -1248,6 +1248,7 @@ align-items: center;
 		display: flex;
 		position: relative;
 		top: 16%;
+		width: 100%;
 	}
 
 	.schema__imgcar{
@@ -1263,5 +1264,6 @@ align-items: center;
 		position: relative;
 		right: 2%;
 		bottom: 7%;
+		width: 100%;
 	}
 }
